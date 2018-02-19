@@ -1,0 +1,32 @@
+{
+  "name": "megastruktur/smsby",
+  "type": "library",
+  "description": "A simple library to send sms via sms.by service.",
+  "homepage": "http://github.com/megastruktur/smsby",
+  "keywords": [
+    "sms",
+    "phone"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Peter Varaksin",
+      "email": "astromortis@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "guzzlehttp/guzzle": "~6.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "megastruktur\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
