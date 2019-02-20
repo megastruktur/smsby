@@ -11,7 +11,7 @@ class SMSby {
   // Alphaname is set in your admin area.
   protected $alphaname_id;
   
-  protected $api_url = 'http://sms.unisender.by/';
+  protected $api_url = 'https://app.sms.by/';
   protected $api_prefix = 'api/';
   protected $api_version = 'v1';
   protected $client;
